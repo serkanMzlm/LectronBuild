@@ -1,0 +1,10 @@
+/Lectron/qml/main.qml
+/Lectron/qml/FlyView.qml
+/Lectron/qml/FlyViewToolBar.qml
+/Lectron/qml/FlyViewWidgetLayer.qml
+/Lectron/qml/SettingsPage.qml
+/Lectron/qml/VehiclePage.qml
+/Lectron/qml/TakeoffPage.qml
+/Lectron/qml/BombPage.qml
+/Lectron/qml/VehicleModePage.qml
+/Lectron/qml/EmptyPage.qml

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Lectron">
+    <file alias="qmldir">C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/Lectron/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,14 @@
+-rootPath
+C:/ems/Lectron
+-cmake-output
+-output-file
+C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/.qt_plugins/Qt6_QmlPlugins_Imports_appLectron.cmake
+-importPath
+C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/Lectron
+-importPath
+C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release
+-importPath
+C:/Qt/6.5.3/msvc2019_64/./qml
+-qrcFiles
+C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/.rcc/qmake_Lectron.qrc
+C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/.rcc/appLectron_raw_qml_0.qrc
