@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/deneme/">
-    <file alias="Main.qml">C:/ems/deneme/Main.qml</file>
-  </qresource>
-</RCC>
-
