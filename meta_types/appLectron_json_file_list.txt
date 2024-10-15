@@ -1,2 +1,0 @@
-C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/appLectron_autogen/include/../EWIEGA46WW/moc_communication.cpp.json
-C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/appLectron_autogen/include/../EWIEGA46WW/moc_computer_info.cpp.json

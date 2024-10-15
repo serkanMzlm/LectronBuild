@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/appLectron.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/appLectron.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -44,5 +44,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

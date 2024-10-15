@@ -39,7 +39,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+        C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\ems\\Lectron\\build\\Desktop_Qt_6_5_3_MSVC2019_64bit-Release\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\ems\\Lectron\\build\\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -63,8 +63,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-ikenmx"
-      binary: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-ikenmx"
+      source: "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-tl3j25"
+      binary: "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-tl3j25"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -74,11 +74,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-ikenmx'
+        Change Dir: 'C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-tl3j25'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_f7688
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_f7688.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_f7688.dir\\ /FS -c C:\\Qt\\Tools\\CMake_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f7688.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f7688.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_f7688.exe /implib:cmTC_f7688.lib /pdb:cmTC_f7688.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d2017
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_d2017.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_d2017.dir\\ /FS -c C:\\Qt\\Tools\\CMake_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d2017.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d2017.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_d2017.exe /implib:cmTC_d2017.lib /pdb:cmTC_d2017.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -116,32 +116,36 @@ events:
       - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
       - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:112 (include)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:67 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)"
+      - "C:/opt/ros/foxy/x64/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rcl/cmake/rclConfig.cmake:41 (include)"
+      - "C:/opt/ros/foxy/x64/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)"
+      - "C:/opt/ros/foxy/x64/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-rwdhp6"
-      binary: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-rwdhp6"
+      source: "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-x2zrta"
+      binary: "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-x2zrta"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MODULE_PATH: "C:/opt/ros/foxy/x64/share/fastrtps_cmake_module/cmake/Modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-rwdhp6'
+        Change Dir: 'C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-x2zrta'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_d0c1d
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_d0c1d.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_d0c1d.dir\\ /FS -c C:\\ems\\Lectron\\build\\Desktop_Qt_6_5_3_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-rwdhp6\\src.cxx
-        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_d0c1d.dir/src.cxx.obj 
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_d0c1d.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_d0c1d.dir\\ /FS -c C:\\ems\\Lectron\\build\\Desktop_Qt_6_5_3_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-rwdhp6\\src.cxx
-        C:\\ems\\Lectron\\build\\Desktop_Qt_6_5_3_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-rwdhp6\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_b31a0
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++14 -MDd /showIncludes /FoCMakeFiles\\cmTC_b31a0.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_b31a0.dir\\ /FS -c C:\\ems\\Lectron\\build\\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-x2zrta\\src.cxx
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_b31a0.dir/src.cxx.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++14 -MDd /showIncludes /FoCMakeFiles\\cmTC_b31a0.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_b31a0.dir\\ /FS -c C:\\ems\\Lectron\\build\\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-x2zrta\\src.cxx
+        C:\\ems\\Lectron\\build\\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-x2zrta\\src.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -151,33 +155,37 @@ events:
       - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
       - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
       - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
-      - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:112 (include)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:67 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)"
+      - "C:/opt/ros/foxy/x64/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rcl/cmake/rclConfig.cmake:41 (include)"
+      - "C:/opt/ros/foxy/x64/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)"
+      - "C:/opt/ros/foxy/x64/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-hbarfq"
-      binary: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-hbarfq"
+      source: "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-u63sis"
+      binary: "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-u63sis"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MODULE_PATH: "C:/opt/ros/foxy/x64/share/fastrtps_cmake_module/cmake/Modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-hbarfq'
+        Change Dir: 'C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-u63sis'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_a499b
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_a499b.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_a499b.dir\\ /FS -c C:\\ems\\Lectron\\build\\Desktop_Qt_6_5_3_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-hbarfq\\CheckFunctionExists.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a499b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a499b.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_a499b.exe /implib:cmTC_a499b.lib /pdb:cmTC_a499b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        \x1b[31mFAILED: \x1b[0mcmTC_a499b.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a499b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a499b.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_a499b.exe /implib:cmTC_a499b.lib /pdb:cmTC_a499b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a499b.dir\\CheckFunctionExists.cxx.obj /out:cmTC_a499b.exe /implib:cmTC_a499b.lib /pdb:cmTC_a499b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a499b.dir/intermediate.manifest CMakeFiles\\cmTC_a499b.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_588a9
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++14 -MDd /showIncludes /FoCMakeFiles\\cmTC_588a9.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_588a9.dir\\ /FS -c C:\\ems\\Lectron\\build\\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-u63sis\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_588a9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_588a9.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_588a9.exe /implib:cmTC_588a9.lib /pdb:cmTC_588a9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        \x1b[31mFAILED: \x1b[0mcmTC_588a9.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_588a9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_588a9.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_588a9.exe /implib:cmTC_588a9.lib /pdb:cmTC_588a9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_588a9.dir\\CheckFunctionExists.cxx.obj /out:cmTC_588a9.exe /implib:cmTC_588a9.lib /pdb:cmTC_588a9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_588a9.dir/intermediate.manifest CMakeFiles\\cmTC_588a9.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
         ninja: build stopped: subcommand failed.
         
@@ -188,72 +196,39 @@ events:
       - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
       - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
       - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
-      - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:112 (include)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:67 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)"
+      - "C:/opt/ros/foxy/x64/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rcl/cmake/rclConfig.cmake:41 (include)"
+      - "C:/opt/ros/foxy/x64/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)"
+      - "C:/opt/ros/foxy/x64/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "C:/opt/ros/foxy/x64/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-1n8qk9"
-      binary: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-1n8qk9"
+      source: "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-vzsgiq"
+      binary: "C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-vzsgiq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MODULE_PATH: "C:/opt/ros/foxy/x64/share/fastrtps_cmake_module/cmake/Modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-1n8qk9'
+        Change Dir: 'C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-vzsgiq'
         
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_673df
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_673df.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_673df.dir\\ /FS -c C:\\ems\\Lectron\\build\\Desktop_Qt_6_5_3_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-1n8qk9\\CheckFunctionExists.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_673df.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_673df.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_673df.exe /implib:cmTC_673df.lib /pdb:cmTC_673df.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        \x1b[31mFAILED: \x1b[0mcmTC_673df.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_673df.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_673df.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_673df.exe /implib:cmTC_673df.lib /pdb:cmTC_673df.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_673df.dir\\CheckFunctionExists.cxx.obj /out:cmTC_673df.exe /implib:cmTC_673df.lib /pdb:cmTC_673df.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_673df.dir/intermediate.manifest CMakeFiles\\cmTC_673df.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_e524f
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++14 -MDd /showIncludes /FoCMakeFiles\\cmTC_e524f.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_e524f.dir\\ /FS -c C:\\ems\\Lectron\\build\\Desktop_Qt_5_15_2_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-vzsgiq\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e524f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e524f.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_e524f.exe /implib:cmTC_e524f.lib /pdb:cmTC_e524f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        \x1b[31mFAILED: \x1b[0mcmTC_e524f.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e524f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e524f.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_e524f.exe /implib:cmTC_e524f.lib /pdb:cmTC_e524f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e524f.dir\\CheckFunctionExists.cxx.obj /out:cmTC_e524f.exe /implib:cmTC_e524f.lib /pdb:cmTC_e524f.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e524f.dir/intermediate.manifest CMakeFiles\\cmTC_e524f.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
-      - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:40 (include)"
-      - "C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
-      - "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:157 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
-    checks:
-      - "Performing Test HAVE_STDATOMIC"
-    directories:
-      source: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-3kk4un"
-      binary: "C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-3kk4un"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6;C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.5.3/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
-    buildResult:
-      variable: "HAVE_STDATOMIC"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/ems/Lectron/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-3kk4un'
-        
-        Run Build Command(s): C:/msys64/mingw64/bin/ninja.exe -v cmTC_7cb63
-        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\HostX64\\x64\\cl.exe  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_7cb63.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_7cb63.dir\\ /FS -c C:\\ems\\Lectron\\build\\Desktop_Qt_6_5_3_MSVC2019_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-3kk4un\\src.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7cb63.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7cb63.dir\\src.cxx.obj  /out:cmTC_7cb63.exe /implib:cmTC_7cb63.lib /pdb:cmTC_7cb63.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        
-      exitCode: 0
 ...
