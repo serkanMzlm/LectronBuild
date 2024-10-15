@@ -1,0 +1,27 @@
+# ninja log v5
+17	258	7506960656626615	systemInfoLib_autogen/timestamp	62d4470c580f43f5
+17	258	7506960656626615	systemInfoLib_autogen/mocs_compilation.cpp	62d4470c580f43f5
+17	258	7506960656626615	C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/systemInfoLib_autogen/timestamp	62d4470c580f43f5
+17	258	7506960656626615	C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/systemInfoLib_autogen/mocs_compilation.cpp	62d4470c580f43f5
+24	448	7506960658440425	comLib_autogen/timestamp	fad68a8459c64e89
+24	448	7506960658440425	comLib_autogen/mocs_compilation.cpp	fad68a8459c64e89
+24	448	7506960658440425	C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/comLib_autogen/timestamp	fad68a8459c64e89
+24	448	7506960658440425	C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/comLib_autogen/mocs_compilation.cpp	fad68a8459c64e89
+456	539	7506960660120804	CMakeFiles/comLib.dir/src/filter.cpp.obj	887ba642a133133a
+269	1379	7506960668482796	CMakeFiles/systemInfoLib.dir/src/system_info.cpp.obj	27a14f477603fc92
+264	1391	7506960668612807	CMakeFiles/systemInfoLib.dir/systemInfoLib_autogen/mocs_compilation.cpp.obj	a3ed6ce6cc897a65
+1391	1443	7506960669098360	systemInfoLib.lib	639371dfee3c6556
+463	1696	7506960671649352	CMakeFiles/comLib.dir/src/serial_comm.cpp.obj	f9f421e17ed6211b
+451	3527	7506960689932611	CMakeFiles/comLib.dir/comLib_autogen/mocs_compilation.cpp.obj	1317c49d2f417d9c
+460	4516	7506960699789191	CMakeFiles/comLib.dir/src/ros_comm.cpp.obj	130b387174015101
+4516	4575	7506960700389399	comLib.lib	22a6b23160c0d10d
+4575	4695	7506960701097365	appLectron_autogen/timestamp	726a7707c77031dd
+4575	4695	7506960701097365	appLectron_autogen/mocs_compilation.cpp	726a7707c77031dd
+4575	4695	7506960701097365	C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/appLectron_autogen/timestamp	726a7707c77031dd
+4575	4695	7506960701097365	C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/appLectron_autogen/mocs_compilation.cpp	726a7707c77031dd
+4695	4778	7506960702499095	appLectron_autogen/EWIEGA46WW/qrc_recourse.cpp	470ab79163c77173
+4695	4778	7506960702499095	C:/ems/Lectron/build/Desktop_Qt_5_15_2_MSVC2019_64bit-Release/appLectron_autogen/EWIEGA46WW/qrc_recourse.cpp	470ab79163c77173
+4778	4819	7506960702939209	CMakeFiles/appLectron.dir/appLectron_autogen/mocs_compilation.cpp.obj	eb744a5f15614c95
+4784	5165	7506960706366122	CMakeFiles/appLectron.dir/appLectron_autogen/EWIEGA46WW/qrc_recourse.cpp.obj	ef2284c092dc2fb3
+4781	7823	7506960732896110	CMakeFiles/appLectron.dir/main.cpp.obj	87160d5900c6e7cc
+7823	7968	7506960734279098	appLectron.exe	e1992c89dd497dec
